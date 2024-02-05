@@ -1,3 +1,4 @@
+import Head from "next/head";
 import { useEffect, useState } from "react"
 
 const Homepage = () => {
@@ -22,6 +23,9 @@ const Homepage = () => {
         <>
             <main>
                 <header>
+                    <Head>
+                        <title>Roastify | Trailblazing Impulse Brands</title>
+                    </Head>
                     <div className="header-col-1">
                       <img src="./roastify-logo.webp" alt="" />
                     </div>
@@ -475,7 +479,7 @@ const Homepage = () => {
                 <footer>
                     <div className="footer-container">
                         <div>
-                            <img src="https://framerusercontent.com/images/mXUoxHWW0oAAHDRmZpRj7kZ1P2M.png" alt="" />
+                            <img src="./roastify-logo.webp" alt="" />
                             <p>Roastify.  ©2024 |  Delhi, IN</p>
                         </div>
                         <ul>
